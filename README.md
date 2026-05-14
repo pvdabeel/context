@@ -63,8 +63,8 @@ LICENSE                     2-clause BSD-style license
 ## Install
 
 ```sh
-git clone https://github.com/pvdabeel/context.pl.git ~/lib/context.pl
-swipl -p library=~/lib/context.pl context-driven-program.pl
+git clone https://github.com/pvdabeel/context.git ~/lib/context
+swipl -p library=~/lib/context context-driven-program.pl
 ```
 
 Or copy `context.pl` into your project tree and `:- use_module(context).`
